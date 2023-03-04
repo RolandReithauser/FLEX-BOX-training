@@ -1,19 +1,18 @@
 body{
-    background: linear-gradient(to right, #494949, #013a17);
+    background: linear-gradient(to right, #7a7a7a, #000000);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
     width: 80%;
+    padding-left: 10%;
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 24px;
-}
-
-h2 {
-    color: cadetblue;
-    font-weight: 900;
-}
-
-h3 {
     color: darkorange;
+    font-size: 24px;
     font-weight: 700;
 }
