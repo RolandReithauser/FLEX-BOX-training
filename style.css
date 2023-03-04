@@ -1,8 +1,13 @@
 body{
-    background-color: #000000;
+    background: linear-gradient(to right, #494949, #013a17);
 }
 
 h1 {
     color: #ffffff;
     font-size: 24px;
+}
+
+h2 {
+    color: cadetblue;
+    font-size: 20px;
 }
