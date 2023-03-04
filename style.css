@@ -2,17 +2,44 @@ body{
     background: linear-gradient(to right, #7a7a7a, #000000);
 }
 
-.container {
+.containerheader {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     flex-direction: row;
     width: 80%;
+    height: 10%;
     padding-left: 10%;
+    color: darkorange;
+    font-size: 12px;
+    font-weight: 400;
 }
 
-h1 {
+.containercontent {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    height: 300px;
+    padding-left: 10%;
+    color: #c7bf2c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.containerfooter {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    width: 80%;
+    height: 10%;
+    padding-left: 10%;
     color: darkorange;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+hr {
+    width: 80%;
 }
