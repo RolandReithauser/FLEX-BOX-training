@@ -9,5 +9,10 @@ h1 {
 
 h2 {
     color: cadetblue;
-    font-size: 20px;
+    font-weight: 900;
+}
+
+h3 {
+    color: darkorange;
+    font-weight: 700;
 }
